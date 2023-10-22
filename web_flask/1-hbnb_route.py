@@ -11,6 +11,7 @@ def hello_hbnb():
     """Return a simple string for index page"""
     return "Hello HBNB!"
 
+
 @app.route('/hbnb', strict_slashes=False)
 def hello_hbnb():
     """Return a simple string for index page"""
